@@ -88,7 +88,7 @@ namespace RestApi
             var tradeResponse = serializer.Deserialize<TransactionsResponse>( responseString );
             if (tradeResponse.transactions.Count > 0)
             {
-                result = tradeResponse.transactions[0].id;
+				result = (int) tradeResponse.transactions[0].id;
             }
                         
             return result;

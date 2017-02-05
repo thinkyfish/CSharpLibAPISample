@@ -7,8 +7,8 @@
     <ProjectGuid>{E18EC5EB-259B-4E6F-9D05-3D48AFC3B82F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RestAPI</RootNamespace>
-    <AssemblyName>RestAPI</AssemblyName>
+    <RootNamespace>RestApi</RootNamespace>
+    <AssemblyName>RestApi</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProductVersion>8.0.30703</ProductVersion>

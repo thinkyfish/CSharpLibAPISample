@@ -2,7 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Rest.cs">
     <Files>
-      <File FileName="Rest.cs" Line="1" Column="1" />
+      <File FileName="Rest.cs" Line="17" Column="18" />
+      <File FileName="DataTypes/Account.cs" Line="1" Column="1" />
+      <File FileName="DataTypes/AccountDetails.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

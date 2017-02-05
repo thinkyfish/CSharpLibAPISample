@@ -24,7 +24,7 @@ namespace RestApi
         /// Server to communicate with
         /// </summary>
         /// Change to https://api-fxpractice.oanda.com/ for practice account
-        static string s_apiServer = "http://api-sandbox.oanda.com/";
+        static string s_apiServer = "http://api-fxtrade.oanda.com/";
         
         /// <summary>
         /// Gets the list of accounts for a specific user
@@ -236,7 +236,7 @@ namespace RestApi
 
             return prices;
         }
-
+		public static string accessToken;
         /// <summary>
         /// send a request and retrieve the response
         /// </summary>
@@ -246,11 +246,10 @@ namespace RestApi
         {
             var request = WebRequest.CreateHttp(requestString);
 
-            /*
+            
             // for non-sandbox requests
-            var accessToken = "<your access token here>";
             request.Headers.Add("Authorization", "Bearer " + accessToken);
-            */
+            
 
             request.Method = method;
             if (method == "POST")
